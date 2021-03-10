@@ -5,9 +5,7 @@ RUN apk add --no-cache autoconf g++ make \
     && rm -rf /tmp/pear \
     && docker-php-ext-enable xdebug
 
-RUN apk add --no-cache postgresql-dev \
-    && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
-    && docker-php-ext-install pdo_pgsql
+RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 RUN mv $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini
 
