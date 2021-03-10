@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce2e8d78-4aa5-4a9a-8168-086f0a40e102" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Example2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
+    <list default="true" id="ce2e8d78-4aa5-4a9a-8168-086f0a40e102" name="Default Changelist" comment="Vue Components">
+      <change afterPath="$PROJECT_DIR$/resources/js/bookables/BookableListItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/bookables/Bookables.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -145,8 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\phone_book\resources" />
       <recent name="D:\projects\phone_book\resources\js" />
+      <recent name="D:\projects\phone_book\resources" />
       <recent name="D:\projects\phone_book" />
     </key>
   </component>
@@ -159,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615395064001</updated>
       <workItem from="1615395065129" duration="1511000" />
-      <workItem from="1615396606579" duration="2815000" />
+      <workItem from="1615396606579" duration="4556000" />
     </task>
     <task id="LOCAL-00001" summary="Docker">
       <created>1615396743082</created>
@@ -182,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615397895540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Vue Router">
+      <created>1615399468216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615399468216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,16 +198,21 @@
     <MESSAGE value="Docker" />
     <MESSAGE value="Install Laravel" />
     <MESSAGE value="Install Vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Vue" />
+    <MESSAGE value="Vue Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue Router" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1303" y="108" key="CommitChangelistDialog2" timestamp="1615397894468">
+    <state x="-1303" y="108" key="CommitChangelistDialog2" timestamp="1615400815618">
       <screen x="-1858" y="0" width="1858" height="1080" />
     </state>
-    <state x="-1303" y="108" key="CommitChangelistDialog2/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615397894468" />
-    <state x="-1266" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1615398289174">
+    <state x="-1303" y="108" key="CommitChangelistDialog2/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615400815618" />
+    <state x="-1221" y="273" width="585" height="534" key="find.popup" timestamp="1615400315173">
       <screen x="-1858" y="0" width="1858" height="1080" />
     </state>
-    <state x="-1266" y="235" width="672" height="678" key="search.everywhere.popup/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615398289174" />
+    <state x="-1221" y="273" width="585" height="534" key="find.popup/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615400315173" />
+    <state x="-1266" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1615401175685">
+      <screen x="-1858" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1266" y="235" width="672" height="678" key="search.everywhere.popup/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615401175685" />
   </component>
 </project>
