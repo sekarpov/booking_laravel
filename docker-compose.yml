@@ -54,6 +54,7 @@ services:
         image: node:10.11-jessie
         volumes:
             - ./:/app
+        working_dir: /app
         tty: true
 
 volumes:

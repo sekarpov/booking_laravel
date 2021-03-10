@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="ce2e8d78-4aa5-4a9a-8168-086f0a40e102" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/laravel/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/laravel/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/laravel/vendor/symfony/polyfill-mbstring" />
@@ -126,66 +99,10 @@
       <path value="$PROJECT_DIR$/laravel/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1pZeVY6RLt7BUUGBeHpFrPNCW6v" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\phone_book" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ce2e8d78-4aa5-4a9a-8168-086f0a40e102" name="Default Changelist" comment="" />
-      <created>1615395064001</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1615395064001</updated>
-      <workItem from="1615395065129" duration="1511000" />
-      <workItem from="1615396606579" duration="1236000" />
-    </task>
-    <task id="LOCAL-00001" summary="Docker">
-      <created>1615396743082</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615396743082</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Install Laravel">
-      <created>1615396762469</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615396762469</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Docker" />
-    <MESSAGE value="Install Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Laravel" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1303" y="108" key="CommitChangelistDialog2" timestamp="1615396761145">
-      <screen x="-1858" y="0" width="1858" height="1080" />
-    </state>
-    <state x="-1303" y="108" key="CommitChangelistDialog2/-1858.0.1858.1080/62.0.1858.1080@-1858.0.1858.1080" timestamp="1615396761145" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/laravel/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
